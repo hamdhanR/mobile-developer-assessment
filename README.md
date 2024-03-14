@@ -1,4 +1,8 @@
+
+
 # Pop-The-Balloon Mobile Video Game
+
+https://github.com/lakshyaRW/l2-mobile-developer-assessment/assets/133904910/0e5dd18b-a8a7-460b-8677-3ba6abe7025e
 
 ## Instructions:
 
@@ -67,6 +71,10 @@ Create a mobile based video game which asks the players to pop the greatest numb
     a)	Simple Tap-to-Pop: The primary interaction should be a simple tap on a balloon to pop it
 
     b)	Responsive Touch Controls: Ensure immediate and accurate registration of taps, providing instant feedback to the player.
+
+
+
+
 
 **Deliverables**
 
