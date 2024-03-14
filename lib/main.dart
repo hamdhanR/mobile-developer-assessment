@@ -10,6 +10,7 @@ class BalloonPopGame extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: GameScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -27,7 +28,8 @@ class _GameScreenState extends State<GameScreen> {
 Widget build(BuildContext context) {
   return Scaffold(
     appBar: AppBar(
-      title: Text('Pop-The-Balloon'),
+      title: Text('Pop-The-Balloon',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+      backgroundColor: Colors.purple,
     ),
     backgroundColor: Colors.purple[200],
     body: Center(

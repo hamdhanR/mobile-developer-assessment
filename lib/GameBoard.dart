@@ -11,6 +11,7 @@ class GameBoard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: GameScreen(),
     );
   }
@@ -114,8 +115,10 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
-        title: Text('Balloon Pop Game'),
+        title: Text('Balloon Pop Game',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+        backgroundColor: Color.fromARGB(255, 24, 72, 97),
       ),
       backgroundColor: Color.fromARGB(255, 85, 106, 137),
       body: Stack(
@@ -272,8 +275,10 @@ class EndScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
-        title: Text('Game Over'),
+        title: Text('Game Over',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+        backgroundColor: Colors.purple,
       ),backgroundColor: Colors.purple[200],
       body: Center(
         child: Column(
